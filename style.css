@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter&family=Kumar+One&family=Limelight&family=Montserrat:wght@400;500;700;900&family=Nunito+Sans:opsz,wght@6..12,300;6..12,600&family=Open+Sans&family=Plus+Jakarta+Sans:wght@400;600&family=Public+Sans:wght@700&family=Racing+Sans+One&family=Revalia&family=Roboto+Mono:wght@500&family=Roboto:ital,wght@0,400;0,500;0,700;1,700&family=Russo+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.ota {
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul {
+
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ul {
+    display: flex;
+    gap: 40px;
+}
+
+li a {
+    color: #837D88;
+    text-align: center;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+}
+
+.btn {
+
+    color: #2C2830;
+    text-align: center;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    width: 146px;
+    height: 40px;
+    flex-shrink: 0;
+
+}
+
+.sec-1 {
+
+    height: 600px;
+    background: #2D2641;
+
+}
+
+h1 {
+    color: #FFF;
+    font-family: DM Serif Display;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    /* 88.889% */
+    width: 540px;
+    letter-spacing: -1px;
+}
+
+.ss {
+    margin-top: 16px;
+    margin-bottom: 25px;
+    color: #FFF;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    width: 540px;
+}
+
+.bdtn {
+
+    color: #FFF;
+    text-align: center;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    width: 146px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1.5px solid #FFF;
+    background: #2D2641;
+
+}
+
+.otta {
+    display: flex;
+    height: 600px;
+    align-items: center;
+}
+
+
+.otta {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.gta {
+    padding-top: 120px;
+}
+
+.sec-2 {
+
+    padding-top: 240px;
+
+
+}
+
+
+.lok {
+    color: #2C2830;
+    font-family: DM Serif Display;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    /* 88.889% */
+    letter-spacing: -1px;
+}
+
+.boxx {
+    max-width: 300px;
+    margin-top: 100px
+}
+
+.fj {
+    color: #2C2830;
+    font-family: DM Serif Display;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.389px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.gg {
+    color: #837D88;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.qatorr {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sec-3 {
+    margin-top: 80px;
+}
+
+.nimadur {
+    background: #2D2641;
+    height: 250px;
+
+}
+
+.ff {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.ffs button {
+    color: #FFF;
+    text-align: center;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    width: 160px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1.5px solid #FFF;
+    background: transparent;
+}
+
+footer {
+    margin-top: 90px;
+}
+
+.oor {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.burger {
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+
+    .container {
+        max-width: 790px;
+    }
+
+    .gta img {
+        display: none;
+    }
+}
+
+@media screen  and (max-width:576px) {
+
+    .container {
+        max-width: 300px;
+    }
+
+
+    .right {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    h1 {
+        width: 300px;
+        height: 96px;
+        flex-shrink: 0;
+        text-align: center;
+        color: #FFF;
+        font-family: DM Serif Display;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 48px;
+        /* 100% */
+        letter-spacing: -0.667px;
+    }
+
+    .ss {
+        width: 290px;
+        color: #FFF;
+        text-align: center;
+        font-family: Karla;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 162.5% */
+        height: 130px;
+        flex-shrink: 0;
+    }
+
+    .bdtn {
+        margin-top: 20px;
+    }
+
+    .sec-1 {
+        text-align: center;
+    }
+
+
+    .gta img {
+        display: block;
+        max-width: 300px;
+        margin-bottom: 50px;
+
+    }
+
+    .sec-1 {
+        padding-top: 190px;
+        height: 700px;
+    }
+
+    .otta {
+
+        flex-direction: column-reverse;
+    }
+
+    .lok {
+
+        color: #2C2830;
+        font-family: DM Serif Display;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 48px;
+        /* 100% */
+        letter-spacing: -0.667px;
+
+
+
+    }
+
+
+    .qatorr {
+        display: block;
+    }
+
+    .boxx {
+        text-align: center;
+    }
+
+    .nimadur {
+
+        background: #2D2641;
+        height: 340px;
+
+
+
+    }
+
+    .ff {
+        display: block;
+        text-align: center;
+        padding-top: 72px;
+    }
+
+
+
+
+    .fsa {
+        color: #FFF;
+        text-align: center;
+        font-family: DM Serif Display;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        /* 100% */
+        letter-spacing: -0.556px;
+        margin-bottom: 60px;
+
+
+
+    }
+
+
+
+    .oor {
+        display: block;
+        text-align: center;
+    }   
+
+    .lo {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+
+}
